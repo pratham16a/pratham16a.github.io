@@ -1,0 +1,224 @@
+/* #F1F0E8 */
+/* #EEE0C9 */
+/* #ADC4CE */
+/* #96B6C5 */
+
+body{
+    background-color: #ADC4CE;
+    font-family: 'Questrial', 'sans-serif';
+    text-align: center;
+}
+
+.work-experience{
+    background-color: #F1F0E8;
+}
+
+nav{
+    background-color: #ADC4CE;
+    transition-duration: 300ms;
+}
+
+hr{
+    width: 50%;
+    border-width: 2px;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    margin-left : 20px;
+    font-size: larger;
+    font-weight : 500;
+}
+
+nav:hover{
+    background-color: #96B6C5;
+}
+
+.custom-navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.main-body{
+    padding-top: 7%;
+}
+
+.main-body-full-height{
+    height: 100vh;
+    background-color: #EEE0C9;
+}
+
+.main-body-full-height-2{
+    height: 100vh;
+    background-color: #F1F0E8;
+}
+
+.home-left-div{
+    text-align: left;
+    height: 100%;
+}
+.home-left-div-text{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.home-right-div{
+    text-align: left;
+    height: 100%;
+}
+
+.home-right-div-text{
+    margin: 0 auto;
+    width: 70%;
+}
+
+table{
+    margin: 2% auto;
+    width: 70%;
+}
+
+.row-margin-top{
+    /* margin-top: 15%; */
+}
+
+
+.technical-skills{
+    width: 80%;
+    padding : 2%;
+    margin-top: 5%;
+    background-color: #F1F0E8;
+    border-radius: 28px;
+}
+
+.rv-section{
+    margin-top: 8%;
+}
+
+.education{
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    background-color: #ADC4CE;
+    border-radius: 28px;
+}
+
+.expand-section-1{
+    display: none;
+}
+
+.expand-section-2{
+    display: none;
+}
+
+/* text-type-animation */
+.typewriter h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+    width: 70%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #96B6C5; /* The typwriter cursor */
+    white-space: nowrap; /*Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .02em; /* Adjust as needed */
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #96B6C5; }
+  }
+/* animation-ends */
+#subtext{
+    margin-top: 30%;
+    color: grey;
+    font-size: large;
+}
+#name-heading{
+    font-size: 3.4rem;
+    margin-bottom: 1%;
+}
+
+.icon{
+    height: auto;
+    width: 24px;
+    /* margin-bottom: 10px; */
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom : 10px;
+}
+
+.icon-button{
+    padding : 5px 10px;
+}
+
+.icon-button i{
+    font-size: 1.5rem;
+}
+
+.expand-section-1 td{
+    color: aliceblue;
+}
+
+.expand-section-2 td{
+    color : aliceblue;
+}
+
+.change-color-azure-blue{
+    transition-duration: 500ms;
+    color: aliceblue;
+}
+
+.expand-button{
+    background-color: none;
+    transition-duration: 300ms;
+}
+
+.expand-button:hover i{
+    color: aliceblue;
+}
+
+.contact-info-table{
+    text-align: center;
+    width: 35%;
+}
+
+.contact-info-table td{
+    padding: 2%;
+}
+.contact-icon{
+    color: #ADC4CE;
+    transition-duration: 300ms;
+}
+.contact-icon:hover{
+    color: #96B6C5;
+}
+
+.rv-content{
+    margin-bottom: 50px;
+    font-size: 1rem;
+    color: #252525;
+}
+
+.rv-heading{
+    margin-bottom: 20px;
+}
+
+.snacczilla-section{
+    background-color: #EEE0C9;
+    margin-left: auto;
+    margin-right: auto;
+}
