@@ -83,6 +83,11 @@ table{
     /* margin-top: 15%; */
 }
 
+.display-flex-justify-center{
+    display: flex;
+    justify-content: center;
+}
+
 
 .technical-skills{
     width: 80%;
@@ -145,8 +150,19 @@ table{
     color: grey;
     font-size: large;
 }
+
+#project-subtext{
+    margin-top: 10%;
+    color: grey;
+    font-size: medium;
+}
 #name-heading{
     font-size: 3.4rem;
+    margin-bottom: 1%;
+}
+
+#rishima-heading{
+    font-size: 2rem;
     margin-bottom: 1%;
 }
 
@@ -213,6 +229,12 @@ td{
     color: #252525;
 }
 
+.project-content{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #252525;
+}
+
 .rv-heading{
     margin-bottom: 20px;
 }
@@ -222,3 +244,41 @@ td{
     margin-left: auto;
     margin-right: auto;
 }
+
+.carousel-image{
+    width: 60%;
+}
+
+.custom-carousel-options{
+    margin-top: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-black-on-hover{
+    transition-duration: 300ms;
+}
+
+.carousel-subtitle{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-indicators{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-hover:hover .background-black-on-hover{
+    border-radius: 10px;
+    background-color: #252525;
+    opacity: 85%;
+}
+
+.carousel-image{
+    border-radius: 20px;
+}
+
